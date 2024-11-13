@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playlist Audio</title>
+</head>
+<body>
+    <h1>Playlist Audio LOove</h1>
+    <audio id="audioPlayer" controls>
+        <source src="audio1.mp3" type="audio/mp3">
+        Browser Anda tidak mendukung elemen audio.
+    </audio>
+
+    <ul id="playlist">
+        <li><a href="#" onclick="changeTrack('You Are My High.mp3')">Lagu 1</a></li>
+        <li><a href="#" onclick="changeTrack('Birds Of A Feather.mp3')">Lagu 2</a></li>
+        <li><a href="#" onclick="changeTrack('The Archer.mp3')">Lagu 3</a></li>
+    </ul>
+
+    <script>
+        function changeTrack(track) {
+            var player = document.getElementById('audioPlayer');
+            player.src = track;
+            player.play();
+        }
+    </script>
+</body>
+<nav>
+<a href= "✩°｡⋆⸜ 🎧✮.html">✩°｡⋆⸜ 🎧✮ |</a>
+</html>
